@@ -15,8 +15,8 @@
 export default {
   data() {
     return {
-      imageSrc1: '/威海市小麦空间分布图透明底.png', // 替换为你的图片路径
-        imageSrc2: '/威海市玉米空间分布图透明底.png',
+      imageSrc1: 'xiaomai.png', // 替换为你的图片路径
+        imageSrc2: 'yumi.png',
 
     };
   },

@@ -1,8 +1,5 @@
 <script>
-    import Video from "@/components/Video";
-    export default {
-        components: {Video}
-    }
+
 </script>
 <template>
   <dv-full-screen-container>
@@ -79,21 +76,21 @@
 </template>
 
 <script>
-import RingChart from "@/components/RingChart";
+
 import LineChart from "@/components/LineChart";
 import SDmap from "@/components/SDmap";
-import RaderChart from "@/components/RaderChart";
+
 import BarChart from "@/components/BarChart";
 import TimeSelect from "@/components/TimeSelect";
 import ScrollBoard from "@/components/ScrollBoard";
 import PictureSelect from "@/components/PictureSelect";
-import Video from "@/components/Video";
 import ScrollImage from "@/components/ScrollImage";
 import LineChart1 from "@/components/LineChart1";
 import ImageViewer from "@/components/ImageViewer";
 import ScatterChart from "@/components/ScatterChart";
 import ImageViewer2 from "@/components/ImageViewer2";
 import ImageViewer3 from "@/components/ImageViewer3";
+
 
 
 export default {
@@ -106,12 +103,11 @@ export default {
     ScrollBoard,
     BarChart,
     LineChart,
-    RingChart,
+
     SDmap,
-    RaderChart,
+
     TimeSelect,
     PictureSelect,
-    Video,
     ScrollImage,
     LineChart1,
     ImageViewer,

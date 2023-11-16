@@ -71,7 +71,7 @@ export default {
       myChart.showLoading();
 
       const self = this;
-      $.get('https://geo.datav.aliyun.com/areas_v3/bound/370000_full.json', function (geoJson) {
+      $.get('shandong.json', function (geoJson) {
         myChart.hideLoading();
         echarts.registerMap('SD', geoJson);
         self.initChart();

@@ -106,7 +106,7 @@ export default {
   methods: {
     // 加载 Excel 数据的方法
     async loadExcelData() {
-      const excelFilePath = '/气象数据1.xls'; // 替换成你的 Excel 文件路径
+      const excelFilePath = 'qixiang.xlsx'; // 替换成你的 Excel 文件路径
 
       const reader = new FileReader();
 
@@ -165,9 +165,9 @@ export default {
     const seconds = time.split(":")[2];
     return `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
   });
-    const seriesData = dataForSelectedDate.map((columnData, index) => {
+    const seriesData = dataForSelectedDate.map((columnData) => {
   const columnName = columnData.name;
-   const color = this.colors[index];
+
   return {
     name: columnName,
     type: 'line',

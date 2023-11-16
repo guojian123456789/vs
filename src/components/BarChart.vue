@@ -97,7 +97,7 @@ export default {
           emphasis: {
             focus: 'series'
           },
-          data: [16.77603, 11.56631, 12.59062, 14.78893, , , ],
+          data: [16.77603, 11.56631, 12.59062, 14.78893,null , null, null],
           itemStyle:{
             normal:{
               color:'rgba(0,94,255,0.75)',
@@ -113,7 +113,7 @@ export default {
           emphasis: {
             focus: 'series'
           },
-          data: [10.7723300, 12.71645, 11.72213, 11.09627, , , ],
+          data: [10.7723300, 12.71645, 11.72213, 11.09627,null ,null ,null ],
           itemStyle:{
             normal:{
               color:'rgba(0,174,255,0.75)',
@@ -128,7 +128,7 @@ export default {
           emphasis: {
             focus: 'series'
           },
-          data: [5.56232, 8.82773, 8.79793, 7.23449, , , ],
+          data: [5.56232, 8.82773, 8.79793, 7.23449, null,null ,null ],
           itemStyle:{
             normal:{
               color:'rgba(0,247,255,0.75)',
@@ -141,7 +141,7 @@ export default {
           name: '长势较差的玉米',
           type: 'bar',
           stack: 'bad',
-          data: [, , , 15.04301, 4.64689, 3.47553, 15.74071],
+          data: [null, null, null, 15.04301, 4.64689, 3.47553, 15.74071],
           itemStyle:{
             normal:{
               color:'rgba(255,114,88,0.75)',
@@ -160,7 +160,7 @@ export default {
           emphasis: {
             focus: 'series'
           },
-          data: [, , , 14.38569, 16.86162, 15.18113, 14.78592],
+          data: [null, null,null , 14.38569, 16.86162, 15.18113, 14.78592],
           itemStyle:{
             normal:{
               color:'rgba(255,200,151,0.73)',
@@ -175,7 +175,7 @@ export default {
           emphasis: {
             focus: 'series'
           },
-          data: [, , , 9.64008, 17.56051, 20.42946, 8.55953],
+          data: [null,null , null, 9.64008, 17.56051, 20.42946, 8.55953],
           itemStyle:{
             normal:{
               color:'rgba(255,213,0,0.69)',
@@ -191,7 +191,7 @@ export default {
   }
 };
 </script>
-<style lang="scss"scoped>
+<style lang="scss" scoped>
   .box{
     width: 100%;
     height: 100%;

@@ -8,7 +8,7 @@
 export default {
   data() {
     return {
-      imageSrc1: '/GNSS-R-2.png', // 替换为你的图片路径
+      imageSrc1: 'GNSSR2.png', // 替换为你的图片路径
 
 
     };

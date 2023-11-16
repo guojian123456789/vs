@@ -26,7 +26,7 @@ export default {
   methods: {
     readExcelData() {
       // Assuming your Excel file is named 'your_excel_file.xlsx' and is in the public directory
-      const filePath = '近5年产量新.xlsx';
+      const filePath = 'chanliang.xlsx';
 
       // Fetch the Excel file
       fetch(filePath)
@@ -45,9 +45,7 @@ export default {
           // After reading data, initialize and render the chart
           this.initChart();
         })
-        .catch(error => {
 
-        });
     },
     initChart() {
       const chartDom = this.$refs.chart;
@@ -124,7 +122,7 @@ export default {
         },
         series: []
       };
-        const colors = ['rgba(255, 0, 0, 0.7)', 'rgba(0, 255, 0, 0.7)', 'rgba(0, 0, 255, 0.7)', 'rgba(255,255,0,0.7)', 'orange'];
+        const colors = ['rgb(255,255,255)', 'rgb(0,234,255)', 'rgba(0, 0, 255, 0.7)', 'rgb(248,78,255)', 'yellow'];
       // Use this.excelData to populate your series data
       for (let i = 1; i < this.excelData[0].length; i++) {
         const seriesData = this.excelData.slice(1).map(row => {
